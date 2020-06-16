@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color:#ecfffb;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color:#2d767f;
+
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e6262;
+    color: #ecfffb;
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-bar > .left-side > div {
+    margin-right: 20px;
+  }
+  
+  .link {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+  }
+  
+  .link a {
+    color: #ecfffb;
+    text-decoration:none;
+    transition: color 0.5s;
+    padding: 10px;
+  }
+  
+  
+  .link a:hover {
+    color: #2d767f;
+    background-color: #b4f1f1;
+  }
+.ImageText {
+    display:flex;
+}
+.Text {
+    padding-left: 10px;
+    flex:1;
+    padding-right: 10%;
+}
+.Image{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText1 {
+    display:flex;
+}
+.Text1 {
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image1 { width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText2 {
+    display:flex;
+}
+.Text2 {
+    padding-left: 10px;
+    flex:1;
+    padding-right: 10%;
+}
+.Image2 {
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText3{
+    display:flex;
+}
+.Text3{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image3{ 
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText4{
+    display:flex;
+}
+.Text4{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image4{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText5{
+display:flex;
+}
+.Text5{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image5{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText6{
+    display:flex;
+}
+.Text6{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image6{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText7{
+    display:flex; 
+}
+.Text7{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image7 {
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText8{
+    display:flex;
+}
+.Text8{
+    padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image8{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText9{
+    display:flex;
+}
+.Text9{ padding-left: 10%;
+    flex:1;
+    padding-right: 10%;
+}
+.Image9{
+    width: 200%;
+    flex:1;
+    padding-left: 10%;
+}
+.ImageText10{
+    display:flex;
+}
+.Text10{ padding-left: 10%;
+    flex:1;
+    padding-right: 10%;}
+    .Image10{
+        width: 200%;
+        flex:1;
+        padding-left: 10%;
+    }
+table {
+    background clo;
+}
+form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+
+}
