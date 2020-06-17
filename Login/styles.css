@@ -1,0 +1,44 @@
+body{
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Poppins', sans-serif;
+}
+.LoginBox{
+    background-color: #0000005e;
+    color: white;
+    width: 320px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 100px 0;
+}
+.Logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+
+}
+h1{
+    font-size: 22px;
+    margin-top: 40px;
+}
+form{
+    font-size: 16px;
+}
+form input,select,textarea{
+    border: None;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+}
