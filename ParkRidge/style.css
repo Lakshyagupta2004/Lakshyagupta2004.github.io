@@ -47,7 +47,9 @@ body {
   }
 .ImageText {
     display:flex;
+    
 }
+
 .Text {
     padding-left: 10px;
     flex:1;
@@ -58,70 +60,60 @@ body {
     flex:1;
     padding-left: 10%;
 }
-.ImageText1 {
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box1 box4 box5";
+    width: fit-content;
+    margin: auto;
+}
+
+.imgtext-container {
     display:flex;
+    flex-direction: column;
+    position: relative;
 }
-.Text1 {
-    padding-left: 10%;
-    flex:1;
-    padding-right: 10%;
+
+.text-wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: azure;
+    padding: 0 10px;
 }
-.Image1 { width: 200%;
-    flex:1;
-    padding-left: 10%;
+
+.img-wrapper { 
+    margin: 0;
 }
-.ImageText2 {
-    display:flex;
+
+.box1 {
+    grid-area: box1;
 }
-.Text2 {
-    padding-left: 10px;
-    flex:1;
-    padding-right: 10%;
+
+.box2 {
+    grid-area: box2;
 }
-.Image2 {
-    width: 200%;
-    flex:1;
-    padding-left: 10%;
+
+.box3 {
+    grid-area: box3;
 }
-.ImageText3{
-    display:flex;
+
+.box4 {
+    grid-area: box4;
 }
-.Text3{
-    padding-left: 10%;
-    flex:1;
-    padding-right: 10%;
+
+.box5 {
+    grid-area: box5;
 }
-.Image3{ 
-    width: 200%;
-    flex:1;
-    padding-left: 10%;
-}
-.ImageText4{
-    display:flex;
-}
-.Text4{
-    padding-left: 10%;
-    flex:1;
-    padding-right: 10%;
-}
-.Image4{
-    width: 200%;
-    flex:1;
-    padding-left: 10%;
-}
-.ImageText5{
-display:flex;
-}
-.Text5{
-    padding-left: 10%;
-    flex:1;
-    padding-right: 10%;
-}
-.Image5{
-    width: 200%;
-    flex:1;
-    padding-left: 10%;
-}
+
+
+
+
+
+
 .ImageText6{
     display:flex;
 }
@@ -185,7 +177,7 @@ display:flex;
         padding-left: 10%;
     }
 table {
-    background clo;
+    background: cornsilk;
 }
 form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
