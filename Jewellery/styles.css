@@ -1,0 +1,78 @@
+/* html{
+  background: url(https://images.designtrends.com/wp-content/uploads/2015/11/30163055/Plain-Black-Wood-Background1.jpg);
+  background-size: cover;
+} */
+body {
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    padding: 5px;
+    margin: 5%;
+background-color: hsla(200, 20%, 3%, 0);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 122%
+
+}
+.nav-bar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-bar > .left-side > div {
+  margin-right: 20px;
+}
+
+.link {
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.link a {
+  color: grey;
+  text-decoration:none;
+  transition: color 0.5s
+}
+
+.link:hover {
+  border-bottom: 1px solid whitesmoke; 
+}
+
+.link a:hover {
+  color: whitesmoke;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.combo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.img-text {
+  text-align: center;
+  margin-top: 20%;
+}
+
