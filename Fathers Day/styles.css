@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.grid {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-template-rows: 1fr 4fr 3fr 2fr;
+    grid-template-areas:  
+    "box1   box1   box2 "
+    "box1   box1   box3 "
+    "box4   box5   box3 "
+    "box6   box6   box3 ";
+}
+
+.box1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url(https://2.bp.blogspot.com/-REEJQhuD9fk/Vsb-OviSUbI/AAAAAAABFBc/LOz8uDkwEYU/w1200-h630-p-k-no-nu/CMD%2BSunar%2BJewels%2BPraveen%2BGoel.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: box1;
+    color: #222222;
+}
+
+.box1 h1{
+    text-align: center;
+    top: 10%;
+    padding:5px 30px;
+    background-color: ;
+    color: white;
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: #f8f8f8;
+}
+
+.box3 {
+    grid-area: box3;
+    background-image: url(https://www.timescontent.com/photos/preview/446222/Amazon-India-Couture-Week-2015.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: #86a6df;
+    color: #324e7b;
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: #5068a9;
+    color: rgb(205, 232, 248);
+}
+
+.box6 {
+    grid-area: box6;
+    background-color: #324e7b; 
+    color: rgb(205, 232, 248);
+}
+
+h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
