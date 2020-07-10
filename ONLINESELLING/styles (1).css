@@ -1,0 +1,52 @@
+.imagenav {
+    display: flex;
+    width: 60px;
+}
+
+.onlinecourse {
+    text-align: center;
+}
+
+.gridcards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.imagenav1 {
+    float: right;
+    padding-right: 20px;
+}
+
+.card {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+nav {
+    padding: 20px 0 0 0;
+    background-color: white;
+    text-align: center;
+}
+
+.submenu {
+    list-style-type: none;
+    align-items: center;
+    width: 50%;
+}
+
+.submenu #cart {
+    display: none;
+}
+
+.submenu:hover #cart {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}

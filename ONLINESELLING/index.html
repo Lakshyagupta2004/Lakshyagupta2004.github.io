@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles (1).css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+    crossorigin="anonymous" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles (1).css" />
+
+  <title>E-Cart</title>
+</head>
+
+<body>
+  <nav id="nav" class="navbar">
+    <div class="container-fluid mx-5">
+      <div class="navbar-brand ml-5">
+        <img src="https://itsmohamedghouse.github.io/ecom.github.io/img/logo.png" id="logo"
+          style="width: 70px; height: 70px;" />
+      </div>
+      <div class="nav-item ml-auto mr-5">
+        <div class="submenu">
+          <img src="https://itsmohamedghouse.github.io/ecom.github.io/img/cart.png" id="img-cart" />
+          <div id="cart">
+            <table id="list-cart" class="table">
+              <thread>
+                <tr>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                </tr>
+              </thread>
+              <tbody id="list"></tbody>
+            </table>
+            <a href="#" id="empty-cart" class="btn btn-secondary btn-block">Empty Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="onlinecourse">
+    <h1>Online Courses</h1>
+  </div>
+  <div class="gridcards" id="courses">
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(1).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">HTML5, CSS3, JavaScript for Beginners</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="1">Add to Cart </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(2).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Vegetarian Food Course</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="2">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(3).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Beginner Guitar</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="3">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(4).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Orchard in your house</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="4">Add to Cart</a>
+      </div>
+    </div>
+
+    
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(5).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Decoration with products from your home</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="5">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(1).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Web Design for Beginners</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="6">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(2).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Mexican food for beginners</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="7">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(3).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Musical studio in your home</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="8">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(4).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Harvest your own fruits and vegetables</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="9">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(5).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Prepare homemade cookies</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="10">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(1).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Modern JavaScript with ES6</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="11">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card-img-top" src="https://itsmohamedghouse.github.io/ecom.github.io/img/course%20(2).jpg"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">100 Natural Food Recipes</h5>
+        <p style="text-decoration: line-through;">
+          ₹ 200 <span class="discount" style="float: right;">₹ 15</span>
+        </p>
+        <p class="card-text">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </p>
+        <a href="#" class="btn btn-primary add-cart" data-id="12">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html
